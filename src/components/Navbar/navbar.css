@@ -1,0 +1,139 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  align-items: center;
+  background: #0c0c0c;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+.logo img {
+  height: 3rem;
+  width: 9rem;
+}
+
+nav a {
+  margin: 0 0.4rem;
+}
+
+.registration {
+  display: flex;
+  flex-direction: row;
+}
+
+.registration p {
+  cursor: pointer;
+}
+
+.registration p:first-of-type {
+  background: #dcca87;
+  color: #0c0c0c;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+}
+
+.registration p:hover {
+  color: #0c0c0cdc;
+  background: #dcca87e5;
+}
+
+.login {
+  display: flex;
+}
+
+.login p:last-of-type::before {
+    content: "/";
+    margin: 0 .5rem;
+}
+
+.login::after {
+  content: "|";
+  height: 100%;
+  width: 2px;
+  color: #fff;
+  margin: 0 2rem;
+}
+
+.toggleMenu {
+  position: absolute;
+  display: none;
+}
+
+@media screen and (max-width: 1225px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .nav_links-toggle {
+    background: #0c0c0cf8;
+    backdrop-filter: blur(2rem);
+    padding: .7rem 1rem;
+    text-align: left;
+  }
+
+  .nav_links-toggle a {
+    padding: .4rem 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0.4rem;
+  }
+
+  .nav_links {
+    display: none;
+  }
+  .toggleMenu {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    display: block;
+  }
+
+  .registration-toggle {
+    padding: 0 1rem;
+  }
+
+  .registration-toggle p {
+    display: none;
+    background: #0c0c0c;
+    backdrop-filter: blur(3rem);
+    padding: .4rem 0;
+  }
+
+  .registration {
+    position: absolute;
+    top: 1rem;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav_links-toggle {
+    margin-bottom: 0.4rem;
+  }
+
+  .registration {
+    display: none;
+  }
+
+  .login-toggle {
+    margin-bottom: 0.4rem;
+  }
+  .registration-toggle p {
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .registration-toggle p:hover {
+    color: #ffffffd3;
+  }
+}

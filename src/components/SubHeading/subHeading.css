@@ -1,0 +1,9 @@
+.subHeading {
+    display: flex;
+    flex-direction: column;
+}
+
+.subHeading img {
+    height: 1rem;
+    width: 5rem;
+}
