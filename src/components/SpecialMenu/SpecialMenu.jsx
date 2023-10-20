@@ -8,7 +8,7 @@ import "./specialMenu.css";
 
 function SpecialMenu() {
   return (
-    <div className="menu__section section__padding" id="pages">
+    <div className="menu__section section__padding" id="menu">
       <div className="subheading">
         <Subheading text="Menu that fits you palatte" imgUrl={spoon} />
       </div>

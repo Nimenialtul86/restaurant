@@ -8,10 +8,10 @@ const Menu = () => {
   return (
     <nav>
       <a href="#home">Home</a>
-      <a href="#pages">Pages</a>
-      <a href="#contactUS">Contact Us</a>
-      <a href="#blog">Blog</a>
-      <a href="#landing">Landing</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#social">Social</a>
+      <a href="#contact">Contact</a>
     </nav>
   );
 };
@@ -29,8 +29,8 @@ function Navbar() {
       </div>
       <div className="registration">
         <div className="login">
-          <p>Login</p>
-          <p>Registration</p>
+          <p className="login-btn">Login</p>
+          <p className="register-btn">Registration</p>
         </div>
         <p>Book Table</p>
       </div>

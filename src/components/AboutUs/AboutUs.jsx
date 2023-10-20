@@ -20,7 +20,7 @@ const About = ({ title, urlImg, text}) => {
 
 function AboutUs() {
   return (
-    <div className="aboutUs__section section__padding">
+    <div className="aboutUs__section section__padding" id="about">
       <About title="About Us" urlImg={spoon} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et." />
       <img src={knife} alt="knife" className="knife" />
       <div className="G-background" >

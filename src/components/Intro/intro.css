@@ -1,0 +1,10 @@
+.intro__section {
+   display: flex;
+   align-items: center;
+}
+
+.intro__section video {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}

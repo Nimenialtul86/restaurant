@@ -10,11 +10,11 @@ function App() {
     <Header />
     </div>
     <AboutUs />
-    <SpecialMenu />
     <Chef />
+    <SpecialMenu />
+    <Gallery />
     <Intro />
     <Laurels />
-    <Gallery />
     <FindUs />
     <Footer />
     </div>

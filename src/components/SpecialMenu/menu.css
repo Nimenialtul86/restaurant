@@ -21,6 +21,8 @@
     width: 6rem;
     background: var(--color-golden);
     margin-right: 2.5rem;
+    display: flex;
+    flex: 1;
 }
 
 .title {
